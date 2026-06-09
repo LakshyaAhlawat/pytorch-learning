@@ -1,6 +1,58 @@
-﻿venv/
+﻿# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+venv311/
+.env/
+.venv/
+
+# Jupyter
 .ipynb_checkpoints/
-*.pyc
-data/
+
+# VS Code
+.vscode/
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large ML artifacts
+models/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.pickle
+*.pkl
+
+# Vector databases
+chroma/
+semantic_db/
+my_db/
+data/
+
+# Generated data
+data/raw/
+data/processed/
+
+# Temporary files
+tmp/
+temp/
